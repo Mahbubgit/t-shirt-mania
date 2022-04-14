@@ -1,5 +1,7 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
+import HomeContent from '../HomeContent/HomeContent';
+import Image from '../Image/Image';
 import ReviewCard from '../ReviewCard/ReviewCard';
 import './Home.css';
 
@@ -22,14 +24,10 @@ const Home = () => {
         <div>
             <div className='home-container'>
                 <div className="doc-container">
-                    <h2>Buy T-Shirt</h2>
-                    <h2>Be Smart</h2>
-                    <p>Text Hear</p>
-                    <button>Live Demo</button>
+                    <HomeContent></HomeContent>
                 </div>
                 <div className="img-container">
-                    <h3>This is img</h3>
-                    <img src="../images/t-shirt1.jpg" alt="" />
+                    <Image></Image>
                 </div>
             </div>
             <div className="review-container">
@@ -46,7 +44,7 @@ const Home = () => {
                     }
                 </div>
                 <br />
-                <a className='btn-all-review' href="/reviews">See All reviews</a>
+                <a className='button' href="/reviews">See All reviews</a>
             </div>
 
         </div>

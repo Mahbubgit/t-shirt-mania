@@ -3,12 +3,9 @@
     grid-template-columns: 1fr 1fr;
 }
 .doc-container{
-    display: grid;
-    justify-content: flex-end;
-    margin: calc(8.3333333333% + (2 * 12px));
-    position: relative;
-    width: 30%;
-    z-index: 2;
+    margin: calc(8% + (3 * 12px));
+    width: 80%;
+    text-align: left;
 }
 .review-container{
 display: grid;
@@ -16,7 +13,8 @@ display: grid;
 .reviews{
     display: grid;
 }
-.btn-all-review{
+
+.button{
     text-decoration: none;
     height: 40px;
     width: 30%;
@@ -28,7 +26,7 @@ display: grid;
     cursor: pointer;
     font-size: large;
 }
-.btn-all-review:hover{
+.button:hover{
     background-color: green;
     color: white;
 }

@@ -4,14 +4,12 @@ import './ReviewCard.css';
 const ReviewCard = ({ review }) => {
   const { id, rating, author, text, date } = review;
 
-  let reviewId;
   let reviewRating;
   let reviewAuthor;
   let reviewText;
   let reviewDate;
 
   if (id <= 3) {
-    reviewId = id;
     reviewRating = rating;
     reviewAuthor = author;
     reviewText = text;
@@ -20,8 +18,7 @@ const ReviewCard = ({ review }) => {
     return (
       <div className='cards-container'>
         <div className='card'>
-          <h3>ID: {reviewId}</h3>
-          <p>Rating: {reviewRating}</p>
+          <h3>Rating: {reviewRating}</h3>
           <p>Date: {reviewDate}</p>
           <p>Author: {reviewAuthor}</p>
           <p>Comment: {reviewText}</p>
