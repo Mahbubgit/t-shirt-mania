@@ -2,8 +2,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+.doc-container{
+    display: grid;
+    justify-content: flex-end;
+    margin: calc(8.3333333333% + (2 * 12px));
+    position: relative;
+    width: 30%;
+    z-index: 2;
+}
+.review-container{
+display: grid;
+}
+.reviews{
+    display: grid;
+}
 .btn-all-review{
+    text-decoration: none;
     height: 40px;
     width: 30%;
     border: none;

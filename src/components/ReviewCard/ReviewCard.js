@@ -1,27 +1,37 @@
 import React from 'react';
-import useReviews from '../../hooks/useReviews';
-import Review from '../Review/Review';
 import './ReviewCard.css';
 
+const ReviewCard = ({ review }) => {
+  const { id, rating, author, text, date } = review;
 
-const ReviewCard = ({review}) => {
-  const {id, rating, author, text, date} = review;
-  
-  return (
-    
-      <div className='review-card'>
-    
-          <h3>ID: { id }</h3>
-          <p>Rating: {rating}</p>
-          <p>Date: {date}</p>
-          <p>Author: {author}</p>
-          <p>Comment: {text}</p>
+  let reviewId;
+  let reviewRating;
+  let reviewAuthor;
+  let reviewText;
+  let reviewDate;
+
+  if (id <= 3) {
+    reviewId = id;
+    reviewRating = rating;
+    reviewAuthor = author;
+    reviewText = text;
+    reviewDate = date;
+
+    return (
+      <div className='cards-container'>
+        <div className='card'>
+          <h3>ID: {reviewId}</h3>
+          <p>Rating: {reviewRating}</p>
+          <p>Date: {reviewDate}</p>
+          <p>Author: {reviewAuthor}</p>
+          <p>Comment: {reviewText}</p>
+        </div>
       </div>
-  );
+    );
+
+  }
+
+
 };
-
-
-
-
 
 export default ReviewCard;

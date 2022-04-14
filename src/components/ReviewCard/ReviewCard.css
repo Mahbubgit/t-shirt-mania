@@ -16,8 +16,11 @@
   }
   
   .cards-container {
-    display: flex;
-    border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 30%;
     color: #333;
     background: #eee;
     padding: 1rem;
@@ -38,6 +41,8 @@
     border-radius: 6px;
     cursor: pointer;
     transition: all 250ms ease-in-out;
+    padding: 10px;
+    height: 70%;
     
   }
   .card:hover{
