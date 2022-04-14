@@ -1,0 +1,44 @@
+[
+    {
+        "rating": 5.0,
+        "author": "Anthony",
+        "text": "Awesome, go ahead.",
+        "date": "2022-03-25"
+    },
+    {
+        "rating": 4.5,
+        "author": "Tomas",
+        "text": "Great Collection.",
+        "date": "2022-03-27"
+    },
+    {
+        "rating": 4.5,
+        "author": "Saddam",
+        "text": "Awesome, great.",
+        "date": "2022-03-28"
+    },
+    {
+        "rating": 4.0,
+        "author": "Rons",
+        "text": "Nice collection!",
+        "date": "2022-04-01"
+    },
+    {
+        "rating": 3.5,
+        "author": "Kanes",
+        "text": "Interesting!",
+        "date": "2022-03-25"
+    },
+    {
+        "rating": 2.5,
+        "author": "Rony",
+        "text": "Not so good.",
+        "date": "2022-03-24"
+    },
+    {
+        "rating": 5.0,
+        "author": "Moris",
+        "text": "Just Awesome!",
+        "date": "2022-03-30"
+    }
+]

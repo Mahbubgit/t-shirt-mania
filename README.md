@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# T-Shirt Mania
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Buy T-Shirt
+Be Smart
+
+ [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
