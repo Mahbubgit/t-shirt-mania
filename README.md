@@ -1,7 +1,7 @@
 # T-Shirt Mania
 
 ### Project Link
- [Review our site](https://github.com/facebook/create-react-app)
+ [Review our site](https://sweet-t-shirt-mania.netlify.app/)
 
 ## Description
 

@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header-container'>
             <h2>T-Shirt Mania</h2>
             <nav className='navMenu'>
-                <CustomLink to={'/home'} >Home</CustomLink>
+                <CustomLink to={'/home'} active >Home</CustomLink>
                 <CustomLink to={'/reviews'}>Reviews</CustomLink>
                 <CustomLink to={'/dashboard'}>Dashboard</CustomLink>
                 <CustomLink to={'/blogs'}>Blogs</CustomLink>
