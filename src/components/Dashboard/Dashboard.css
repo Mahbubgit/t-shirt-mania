@@ -1,24 +1,39 @@
-.dashboard{
+.dashboard {
     display: flex;
-    background-color: white;
     margin: 30px;
     justify-content: space-between;
     align-items: center;
     height: 700px;
+    width: 100%;
 }
-.dashboard .line-chart{
+
+.dashboard .chart {
     color: orange;
     display: grid;
     justify-content: left;
 }
 
-.dashboard .bar-chart{
-    color: orange;
-    display: grid;
-    justify-content: right;
+
+@media screen and (max-width:1100px) {
+    .dashboard {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        justify-content: left;
+        height: 500px;
+        width: 100%;
+    }
 }
-.dashboard .pie-chart{
-    color: orange;
-    display: grid;
-    justify-content: right;
+
+@media screen and (max-width: 480px) {
+    .dashboard {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        align-items: center;
+        justify-content: left;
+        height: 500px;
+        width: 100%;
+    }
+
 }

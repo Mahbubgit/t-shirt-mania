@@ -8,11 +8,11 @@ import './Home.css';
 const Home = () => {
     const [reviews, setReviews] = useReviews();
 
-    const handleHomeReviews = (newReview) =>{
-        if(reviews.id <= 3){
+    const handleHomeReviews = (newReview) => {
+        if (reviews.id <= 3) {
             let homeReviews = [];
             const exists = reviews.find(review => review.id === newReview.id);
-            if(!exists){
+            if (!exists) {
                 newReview.quantity = newReview.quantity + 1;
                 homeReviews = [...reviews, newReview];
             }
@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="doc-container">
                     <HomeContent></HomeContent>
                 </div>
-                <div className="img-container">
+                <div>
                     <Image></Image>
                 </div>
             </div>

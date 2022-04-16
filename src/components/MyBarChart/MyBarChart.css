@@ -1,0 +1,19 @@
+.bar-chart {
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+@media screen and (max-width:1100px) {
+    .bar-chart {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bar-chart {
+        height: 500px;
+        width: 100%;
+    }
+}

@@ -17,7 +17,7 @@
   
   .cards-container {
     display: grid;
-    grid-template-columns: repeat(3fr);
+    grid-template-columns: 1fr;
     margin: 20px auto;
     border-radius: 10px;
     width: 30%;
@@ -25,8 +25,6 @@
     background: #eee;
     padding: 1rem;
     box-shadow: 0 0 1rem #000 inset;
-    overflow-x: auto;
-    position: relative;
   }
   
 .cards-container::-webkit-scrollbar{
@@ -43,7 +41,6 @@
     transition: all 250ms ease-in-out;
     padding: 10px;
     height: 70%;
-    
   }
   .card:hover{
     box-shadow: 0 4px 1rem -4px #000;
@@ -54,16 +51,16 @@
     padding: 1rem;
   }
   
-  @media screen and (max-width: 625px) {
-    .container {
-      width: 100%
-    }
-    
-    .cards-container {
-      padding: .5rem;
-    }
-    
-    .card {
-      margin: .5rem;
-    }
+  
+@media screen and (max-width:1100px) {
+  .cards-container {
+    width: 50%;
   }
+
+}
+
+@media screen and (max-width: 480px) {
+  .cards-container {
+    width: 80%;
+  }
+}

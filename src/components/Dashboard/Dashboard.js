@@ -6,17 +6,17 @@ import './Dashboard.css';
 const Dashboard = () => {
     return (
         <div className="dashboard">
-            <div className="line-chart">
+            <div className="chart">
                 <MyLineChart></MyLineChart>
-                <h2>Line Chart</h2>
+                <h2>Line Chart [Month vs Sell]</h2>
             </div>
-            <div className="bar-chart">
+            <div className="chart">
                 <MyBarChart></MyBarChart>
-                <h2>Bar Chart</h2>
+                <h2>Bar Chart [Investment vs Revenue]</h2>
             </div>
-            <div className="pie-chart">
+            <div className="chart">
                 <MyPieChart></MyPieChart>
-                <h2>Pie Chart</h2>
+                <h2>Pie Chart [Month vs Revenue]</h2>
             </div>
         </div>
     );

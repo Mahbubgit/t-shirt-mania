@@ -5,7 +5,9 @@ const HomeContent = () => {
         <div>
             <h1>Buy T-Shirt</h1>
             <h1>Be Smart</h1>
+            <br />
             <p>We offering best quality t-Shirt for this summer. Offer 10% off your first buy from our site.</p>
+            <br />
             <button className='button'>Live Demo</button>
         </div>
     );

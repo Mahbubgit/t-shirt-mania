@@ -1,0 +1,20 @@
+.quote{
+    font-size: large;
+    background-color: gray;
+    color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.quote h3{
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 90%;
+    text-align: left;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    text-align: justify;
+}

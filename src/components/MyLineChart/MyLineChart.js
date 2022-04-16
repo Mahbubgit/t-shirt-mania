@@ -1,6 +1,7 @@
 import React from 'react';
 import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import useChartData from '../../hooks/useChartData';
+import './MyLineChart.css';
 
 const MyLineChart = () => {
     
@@ -10,8 +11,8 @@ const MyLineChart = () => {
             <Line dataKey="month" />
             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
             <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-            <XAxis dataKey={"month"} />
-            <YAxis />
+            <XAxis dataKey={"month"} stroke="white" />
+            <YAxis dataKey={"sell"} stroke="white" />
             <Tooltip />
         </LineChart>
     );
