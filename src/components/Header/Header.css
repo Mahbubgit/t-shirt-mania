@@ -1,16 +1,38 @@
-nav a{
-    margin-right: 30px;
-}
-nav a:hover{
-    color: green;
-}
-.navMenu{
+.header-container {
     display: flex;
     justify-content: space-between;
-    margin: 10px auto;
-    width: 20%;
-    font-size: larger;
-    /* color: gray; */
-    font-weight: bold;
-
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(11, 42, 73);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0 5px;
 }
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0 40px;
+    overflow: hidden;
+    border-bottom: 3px solid transparent;
+}
+
+.navMenu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid;
+}
+
+.navMenu a:hover {
+    border-bottom: 3px solid yellow;
+}
+
+nav a {
+    margin-right: 20px;
+}
+

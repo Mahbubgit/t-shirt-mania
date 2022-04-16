@@ -1,9 +1,6 @@
 # T-Shirt Mania
 
-Buy T-Shirt
-Be Smart
-
- [Create React App](https://github.com/facebook/create-react-app).
+ [Review our site](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

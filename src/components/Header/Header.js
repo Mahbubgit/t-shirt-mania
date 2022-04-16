@@ -4,10 +4,10 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            <h2>Welcome to T-Shirt Mania</h2>
+        <div className='header-container'>
+            <h2>T-Shirt Mania</h2>
             <nav className='navMenu'>
-                <CustomLink to={'/home'}>Home</CustomLink>
+                <CustomLink to={'/home'} >Home</CustomLink>
                 <CustomLink to={'/reviews'}>Reviews</CustomLink>
                 <CustomLink to={'/dashboard'}>Dashboard</CustomLink>
                 <CustomLink to={'/blogs'}>Blogs</CustomLink>
